@@ -1,0 +1,126 @@
+@font-face {font-family: 'SourceSerifPro-Regular';src: url('SourceSerifPro-Regular.eot');src: url('fonts/SourceSerifPro-Regular.eot') format('embedded-opentype'),url('fonts/SourceSerifPro-Regular.woff') format('woff'),url('fonts/SourceSerifPro-Regular.ttf') format('truetype'),url('fonts/SourceSerifPro-Regular.svg') format('svg');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'SourceSerifPro-Semibold';src: url('SourceSerifPro-Semibold.eot');src: url('fonts/SourceSerifPro-Semibold.eot') format('embedded-opentype'),url('fonts/SourceSerifPro-Semibold.woff') format('woff'),url('fonts/SourceSerifPro-Semibold.ttf') format('truetype'),url('fonts/SourceSerifPro-Semibold.svg') format('svg');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'SourceSerifPro-Bold';src: url('SourceSerifPro-Bold.eot');src: url('fonts/SourceSerifPro-Bold.eot') format('embedded-opentype'),url('fonts/SourceSerifPro-Bold.woff') format('woff'),url('fonts/SourceSerifPro-Bold.ttf') format('truetype'),url('fonts/SourceSerifPro-Bold.svg') format('svg');font-weight: normal;font-style: normal;}
+
+@font-face {font-family: 'SourceSerifPro-Light';src: url('SourceSerifPro-Light.eot');src: url('fonts/SourceSerifPro-Light.eot') format('embedded-opentype'),url('fonts/SourceSerifPro-Light.woff') format('woff'),url('fonts/SourceSerifPro-Light.ttf') format('truetype'),url('fonts/SourceSerifPro-Light.svg') format('svg');font-weight: normal;font-style: normal;}
+
+
+/*Common Codes*/
+body{font-size:30px;}
+*,span{padding:0;margin:0;outline:none;font-family:'SourceSerifPro-Regular';}
+html, body {margin:0; padding:0;color:#000000;}
+a,a:hover,a:active,a:focus {outline:0;text-decoration:none; }
+figure,img{border:0;margin:0;}
+header,footer,section{width:100%;}
+h1,h2,h3,h4,h5,h6,ol,ul,.row,row,p{ margin:0; padding:0; }
+ul,ul li{ padding:0;list-style:none;}
+.main_container{width:85%;margin:0 auto;display:block;}
+/*Common Codes*/
+
+/*Header*/
+.header_container{padding:1.3rem 0;}
+.header_logo_container img{width:5.5rem;display: block;}
+
+.header_menu_container li {margin-left:2rem;}
+.header_menu_container li a{font-size:0.9rem; color:#333333;display: block;}
+/*Header*/
+
+/*Banner Bottom*/
+.banner_bottom_container {padding:1.2rem 0 1.5rem; background-color:#1C4096;}
+.banner_bottom_container p{color:#ffffff; font-size:0.95rem;line-height:1.8rem}
+/*Banner Bottom*/
+
+/*Common Section*/
+section h3.section_heading {color:#131313;font-size: 2.7rem;line-height: 3.5rem;}
+section h3.section_heading + h3.section_heading{margin-top:0.2rem;}
+section h3.section_heading span{border-bottom:0.3rem solid #E9C000; display:inline-block;padding-bottom: 0.1rem;}
+section h4.section_heading {font-family: 'SourceSerifPro-Bold';font-size: 1.8rem;margin-bottom: 1.6rem;}
+section h5.section_heading {font-family: 'SourceSerifPro-Bold';font-size: 1.5rem;}
+section h6.section_heading {font-family: 'SourceSerifPro-Semibold';font-size: 1.2rem;}
+.section_common_left_container .section_common_left_height_container {display: flex; align-items: center; border-right:0.5rem solid #E9C000;min-height:7rem;}
+.section_common_left_container .section_common_left_height_container p.section_side_heading {color:#1C4096;font-family: 'SourceSerifPro-Semibold';font-size: 1.9rem;line-height:1.6rem; }
+.section_common_right_container{padding:0 0 0 9rem;}
+.section_common_right_container p {color:#525252;font-size: 1.1rem; line-height: 1.9rem;}
+.section_common_right_container p + p {margin-top:1.3rem;}
+.section_common_right_container p span{border-bottom:0.15rem solid #E9C000; display:inline-block;color:#1C4096;line-height: normal;}
+.section_common_right_container p a{border-bottom:0.1rem solid #1C4096; display:inline-block;color:#1C4096;line-height: 1rem;}
+.height_1_5{height:1.5rem}
+.height_2{height:2rem}
+.height_3{height:3rem}
+.height_5{height:5rem}
+/*Common Section*/
+
+/*Banner*/
+.banner_container{padding:3.5rem 0 3rem; background-color:#f2f2f2}
+.banner_main_container {max-width:92.5%;margin:0 0 0 auto;}
+#banner_carousel .carousel-indicators {position:relative; margin:4rem 0 0rem; align-items:center;}
+#banner_carousel .carousel-indicators li{width:1rem; height:1rem; border-radius:50%; opacity:1; background-color:transparent;background-image:url('../images/Ellipse 13.svg'); background-size:100% 100%;}
+#banner_carousel .carousel-indicators li.active{width:1.4rem; height:1.4rem;background-image:url('../images/Group 151.svg');}
+#banner_carousel .banner_text_container {padding:0 4rem 0 0}
+#banner_carousel .banner_text_container h1.banner_heading {color:#1C4096;margin-bottom: 1.5rem;}
+#banner_carousel .banner_text_container h1.banner_heading.stroke_text {-webkit-text-stroke: 1px #000000;}
+#banner_carousel .banner_text_container p.banner_sub_heading {font-size:0.95rem;color:#333333;line-height: 1.8rem;}
+#banner_carousel .banner_text_container p.banner_sub_heading.stroke_text {-webkit-text-stroke: 1px #000000;}
+#banner_carousel .banner_text_container p.banner_text {font-size:0.95rem;color:#333333;line-height: 1.8rem;}
+#banner_carousel .banner_image_container img {max-width:33rem; width:100%; margin:0 0 0 auto; display:block;}
+/*Banner*/
+
+/*About ExQ*/
+.about_container{padding:7rem 0;}
+.about_right_bottom_container .about_right_bottom_img_container img {width:100%;}
+.about_right_bottom_container .about_right_bottom_text_container {padding:0 0 0 3rem;}
+.about_right_bottom_container .about_led_text{font-size: 1.5rem;}
+.about_right_bottom_container .about_name_text{font-size: 1.5rem;color:#E9C000;margin:0.5rem 0 1.5rem 0;}
+/*About ExQ*/
+
+/*Our core Beliefs*/
+.our_core_beliefs_container{padding:6rem 0; background-color:#f7f7f7}
+.core_belief_main_container{width:90%;margin:0 auto 0 0;display:block;}
+.our_core_bottom_img_container {-ms-flex: 0 0 40%; flex: 0 0 40%; max-width: 40%;}
+.our_core_bottom_img_container img {width:100%;}
+.our_core_bottom_text_container.section_common_right_container {padding: 0 0 0 3rem;-ms-flex: 0 0 60%; flex: 0 0 60%; max-width:60%;}
+/*Our core Beliefs*/
+
+/*Our core Beliefs*/
+.what_we_do_container{padding:7rem 0 5rem;}
+.what_we_do_container .what_we_do_right_container{padding-top:2.4rem;}
+.what_we_do_container .what_we_do_list {margin: 1.5rem 0 2.5rem;}
+.what_we_do_container .what_we_do_list li{width:25%;padding: 0 0.7rem 0 0;}
+.what_we_do_container .what_we_do_list li div{border:0.01rem solid #a9b6d7; padding:2rem 0.5rem;height: 100%;}
+.what_we_do_container .what_we_do_list li figure img{}
+.what_we_do_container .what_we_do_list li figure figcaption{font-size: 0.95rem; line-height: 1.4rem;margin-top: 1.5rem;}
+/*Our core Beliefs*/
+
+/*Interested*/
+.interested_container{background-color:#e9c000;}
+.interested_left_container{padding:4rem 4rem 4rem 0;}
+.interested_left_container .interested_left_location_container{padding:0 2rem 3rem 0;}
+.interested_left_container .interested_left_contact_container{padding:0 0rem 3rem 0;}
+.interested_left_container .interested_left_mail_container{padding:0;}
+.interested_left_container h3.interested_heading{font-size: 3rem;margin-bottom: 3rem; color:#131313}
+.interested_left_container h6.text_heading{font-family: 'SourceSerifPro-Bold'; font-size:1.1rem;margin-bottom: 1rem;color:#131313}
+.interested_left_container h6.text_heading img{vertical-align:top; margin-right: 0.7rem; padding-top: 0.1rem;}
+.interested_left_container p, .interested_left_container p a{font-size:0.9rem;color:#333333}
+
+.interested_right_container{padding:4rem 3rem; background-color:#ffffff;}
+.interested_right_container .contcat_form .form-group { margin-bottom: 1.5rem;}
+.interested_right_container .contcat_form .form-control{background-color:#f2f2f2; border-radius:0; border:0;font-size: 0.9rem; padding: 0.8rem 0.9rem; height:auto; color:#333333;font-family: 'SourceSerifPro-Light'; }
+.interested_right_container .contcat_form textarea.form-control{resize:none;}
+.interested_right_container .contcat_form .btn{border-radius:0; padding:0.7rem 4.5rem; background-color:#1c4096; color:#fff; border: 0; font-size: 0.9rem;}
+/*Interested*/
+
+
+/*Footer*/
+.footer_container {background-color: #f6f7fb; padding:1.4rem 0;}
+.footer_left_container p{font-size: 0.9rem;color:#525252;}
+.footer_right_container li{margin-left:1rem; line-height:normal;}
+.footer_right_container li a{display:block;}
+.footer_right_container li img{width:1.8rem;display: block;}
+/*Footer*/
+
+
+@media screen and (max-width:1300px){
+	
+}
