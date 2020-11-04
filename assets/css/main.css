@@ -16,15 +16,16 @@ figure,img{border:0;margin:0;}
 header,footer,section{width:100%;}
 h1,h2,h3,h4,h5,h6,ol,ul,.row,row,p{ margin:0; padding:0; }
 ul,ul li{ padding:0;list-style:none;}
-.main_container{width:85%;margin:0 auto;display:block;}
+.main_container{width:83.7%;margin:0 auto;display:block;}
 /*Common Codes*/
 
 /*Header*/
-.header_container{padding:1.3rem 0;}
-.header_logo_container img{width:5.5rem;display: block;}
+.header_container{padding:1.2rem 0;}
+.header_logo_container img{width:5.8rem;display: block;}
 
-.header_menu_container li {margin-left:2rem;}
-.header_menu_container li a{font-size:0.9rem; color:#333333;display: block;}
+.header_menu_container li {margin-left:2.8rem;}
+.header_menu_container li:last-child {margin-right:-1rem;}
+.header_menu_container li a{font-size:0.84rem; color:#333333;display: block;}
 /*Header*/
 
 /*Banner Bottom*/
@@ -33,22 +34,25 @@ ul,ul li{ padding:0;list-style:none;}
 /*Banner Bottom*/
 
 /*Common Section*/
-section h3.section_heading {color:#131313;font-size: 2.7rem;line-height: 3.5rem;}
-section h3.section_heading + h3.section_heading{margin-top:0.2rem;}
-section h3.section_heading span{border-bottom:0.3rem solid #E9C000; display:inline-block;padding-bottom: 0.1rem;}
+section h3.section_heading {color:#131313;font-size: 2.8rem;line-height: 3rem;}
+section h3.section_heading + h3.section_heading{margin-top:0.4rem;}
+section h3.section_heading span{border-bottom:0.3rem solid #E9C000; display:inline-block;padding-bottom: 0rem;}
 section h4.section_heading {font-family: 'SourceSerifPro-Bold';font-size: 1.8rem;margin-bottom: 1.6rem;}
 section h5.section_heading {font-family: 'SourceSerifPro-Bold';font-size: 1.5rem;}
 section h6.section_heading {font-family: 'SourceSerifPro-Semibold';font-size: 1.2rem;}
-.section_common_left_container .section_common_left_height_container {display: flex; align-items: center; border-right:0.5rem solid #E9C000;min-height:7rem;}
+.section_common_left_container{max-width:22.9%; flex:0 0 22.9%;}
+.section_common_left_container .section_common_left_height_container {display: flex; align-items: center; border-right:0.5rem solid #E9C000;min-height:7.05rem;}
 .section_common_left_container .section_common_left_height_container p.section_side_heading {color:#1C4096;font-family: 'SourceSerifPro-Semibold';font-size: 1.9rem;line-height:1.6rem; }
-.section_common_right_container{padding:0 0 0 9rem;}
-.section_common_right_container p {color:#525252;font-size: 1.1rem; line-height: 1.9rem;}
+.section_common_right_container{max-width:77.1%; flex:0 0 77.1%;padding:0 3.1rem 0 8.5rem;}
+.section_common_right_container p {color:#525252;font-size: 1.07rem; line-height: 1.85rem;}
 .section_common_right_container p + p {margin-top:1.3rem;}
 .section_common_right_container p span{border-bottom:0.15rem solid #E9C000; display:inline-block;color:#1C4096;line-height: normal;}
 .section_common_right_container p a{border-bottom:0.1rem solid #1C4096; display:inline-block;color:#1C4096;line-height: 1rem;}
 .height_1_5{height:1.5rem}
+.height_1_8{height:1.8rem}
 .height_2{height:2rem}
 .height_3{height:3rem}
+.height_4_3{height:4.3rem}
 .height_5{height:5rem}
 /*Common Section*/
 
@@ -68,11 +72,12 @@ section h6.section_heading {font-family: 'SourceSerifPro-Semibold';font-size: 1.
 /*Banner*/
 
 /*About ExQ*/
-.about_container{padding:7rem 0;}
+.about_container{padding:7.5rem 0;}
+.about_right_bottom_container .about_right_bottom_img_container {max-width:37.7%; flex:0 0 37.7%;}
 .about_right_bottom_container .about_right_bottom_img_container img {width:100%;}
-.about_right_bottom_container .about_right_bottom_text_container {padding:0 0 0 3rem;}
-.about_right_bottom_container .about_led_text{font-size: 1.5rem;}
-.about_right_bottom_container .about_name_text{font-size: 1.5rem;color:#E9C000;margin:0.5rem 0 1.5rem 0;}
+.about_right_bottom_container .about_right_bottom_text_container {padding:0 0 0 2.35rem; max-width:62.3%; flex:0 0 62.3%;}
+.about_right_bottom_container .about_led_text{font-size: 1.4rem; color:#131313;}
+.about_right_bottom_container .about_name_text{font-family: 'SourceSerifPro-Semibold';font-size: 1.41rem;color:#E9C000;margin:0.3rem 0 1.7rem 0;}
 /*About ExQ*/
 
 /*Our core Beliefs*/
@@ -107,6 +112,7 @@ section h6.section_heading {font-family: 'SourceSerifPro-Semibold';font-size: 1.
 .interested_right_container{padding:4rem 3rem; background-color:#ffffff;}
 .interested_right_container .contcat_form .form-group { margin-bottom: 1.5rem;}
 .interested_right_container .contcat_form .form-control{background-color:#f2f2f2; border-radius:0; border:0;font-size: 0.9rem; padding: 0.8rem 0.9rem; height:auto; color:#333333;font-family: 'SourceSerifPro-Light'; }
+.interested_right_container .contcat_form .form-control:focus{outline:0; border:0;box-shadow:0 0 0;}
 .interested_right_container .contcat_form textarea.form-control{resize:none;}
 .interested_right_container .contcat_form .btn{border-radius:0; padding:0.7rem 4.5rem; background-color:#1c4096; color:#fff; border: 0; font-size: 0.9rem;}
 /*Interested*/
