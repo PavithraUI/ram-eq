@@ -1,7 +1,5 @@
-var currurl = window.location.pathname;
-var index = currurl.lastIndexOf("/") + 1;
-var filename = currurl.substr(index);
-var url_name=window.location.href;
 $(document).ready(function() {
-	
+	$(".pagescroll").on("click", function() {
+        $('html, body').animate({scrollTop: $($(this).attr("href")).offset().top}, 1200);
+    });
 });
